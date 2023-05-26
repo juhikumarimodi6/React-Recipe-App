@@ -1,0 +1,44 @@
+.recipes {
+    display: flex;
+    border:solid;
+    margin:1%;
+    padding:1%;
+    border-radius: 5%;
+    background-color: rgb(222, 217, 227);
+    align-items: center;
+}
+
+.food-image {
+    width:10vw;
+    background-color: bisque;
+    border:solid red;
+    height:10vw;
+}
+
+.recipe-details {
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color:rgb(134, 60, 204);
+}
+
+.ingridients-container, .servings-container, .instructions-container {
+    display: flex;
+}
+
+@media only screen and (max-width: 400px) {
+    .recipes {
+        flex-direction: column;
+        border-radius: 2%;
+    }
+    .food-image {
+        width:40vw;
+        height:40vw;
+    }
+}

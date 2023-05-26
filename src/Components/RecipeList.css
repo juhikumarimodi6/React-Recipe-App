@@ -1,0 +1,8 @@
+.recipe-container {
+    overflow-y: scroll;
+    border:solid;
+    background-color: rgb(244, 138, 106);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

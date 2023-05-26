@@ -1,0 +1,7 @@
+.header {
+    display:flex;
+    justify-content: center;
+    border:solid;
+    background-color: rgb(209, 78, 139);
+    margin: 1%;
+}

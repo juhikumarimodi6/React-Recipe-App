@@ -1,0 +1,13 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.app-container {
+  border:solid;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(230, 230, 201);
+  height:99vh;
+}
+
