@@ -29,8 +29,8 @@ function App() {
   }
 
   React.useEffect(() => {
-    getRecipe()
-  },[query])
+    getRecipe();
+    },[query])
 
   if(error) {
     return <div><b>Error Loading..</b></div>

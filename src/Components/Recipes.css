@@ -26,10 +26,20 @@
     display: flex;
     justify-content: center;
     color:rgb(134, 60, 204);
+    text-decoration: underline;
 }
 
 .ingridients-container, .servings-container, .instructions-container {
     display: flex;
+    margin-top: 1%;
+}
+
+.ingredients, .servings, .instructions {
+    text-align: justify;
+}
+
+.servings {
+    margin-left: 1%;
 }
 
 @media only screen and (max-width: 400px) {

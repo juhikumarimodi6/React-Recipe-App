@@ -1,5 +1,6 @@
 import React from "react";
 import Recipes from "./Recipes";
+import './RecipeList.css'
 
 const RecipeList = ({results, loading}) => {
     return (
@@ -11,6 +12,7 @@ const RecipeList = ({results, loading}) => {
                         instructions = {recipe.instructions}
                         ingredients = {recipe.ingredients}
                         servings = {recipe.servings}
+                        url = "https://via.placeholder.com/100"
                         />
             })}
             {results.length === 0 && !loading ? <h1>No result found!</h1>: ""}

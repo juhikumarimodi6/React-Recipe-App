@@ -13,6 +13,11 @@
     font-weight: bold;
 }
 
+.search-button:active {
+    box-shadow: inset;
+    background-color: rgb(116, 115, 115);
+}
+
 @media only screen and (max-width:400px) {
     .search-input {
         font-weight:bold;

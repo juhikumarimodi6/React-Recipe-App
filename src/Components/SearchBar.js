@@ -9,12 +9,16 @@ const SearchBar = ({input, setInput, setQuery}) => {
     }
 
     const handleSearch = () => {
-        setQuery(input);
+        if(input.length > 0) {
+            setQuery(input);
+            setInput("");
+        }
     }
 
     const handleEnterKey = (event) => {
-        if(event.key === 'Enter') {
+        if(event.key === 'Enter' && input.length > 0 ) {
             setQuery(input);
+            setInput("");
         }
     }
 
